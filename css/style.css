@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  color: white;
+  background: black;
+  font-weight: bold;
+  display: block;
+  padding: 15px;
+  font-size: 15px;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav li:hover {
+  background: darkgray;
+}
+
+@media (min-width: 480px) {
+    nav ul {
+        display: flex;
+    }
+
+    nav li {
+        flex: 1 1 auto;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    nav li {
+        font-size: 20px;
+    }
+}
